@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Hello'/>
+        <page name='1a_WhatisDI_ExampleOne'/>
+        <page name='1b_WhatIsDI_ExampleOneA'/>
+        <page name='1c_WhatIsDI_ExampleOneB'/>
+        <page name='1d_WhatIsDI_ExampleTwo'/>
+        <page name='3a_FormsOfDi_Initializer'/>
+        <page name='3b_FormsOfDi_Property'/>
+        <page name='3c_FormsOfDi_MethodOne'/>
+        <page name='3d_FormsOfDi_MethodTwo'/>
+    </pages>
+</playground>
