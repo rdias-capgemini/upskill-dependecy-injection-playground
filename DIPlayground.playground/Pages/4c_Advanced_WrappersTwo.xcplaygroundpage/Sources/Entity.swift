@@ -1,6 +1,5 @@
 import Foundation
 
-// MARK: Entities (Model)
 public protocol Entity: Codable { }
 public struct Todo: Entity {
     var title: String

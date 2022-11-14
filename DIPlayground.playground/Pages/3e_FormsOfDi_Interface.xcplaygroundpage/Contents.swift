@@ -2,7 +2,7 @@
  [Previous](@previous)
 
  ## Forms of Dependency Injection
- ### Method injection (Setter)
+ ### Method injection (without property)
  */
 
 import Foundation
@@ -28,11 +28,16 @@ class EngineV8: EngineProtocol {
     }
 }
 
-class Car {
+protocol EngineMountable {
+    func mountEngine(engine: EngineProtocol)
+}
+
+class Car: EngineMountable {
 
     private var engine: EngineProtocol?
 
-    func setEngine(engine: EngineProtocol) {
+    func mountEngine(engine: EngineProtocol) {
+        print("Mounting a \(engine.self)!")
         self.engine = engine
     }
 
@@ -45,7 +50,7 @@ class Car {
 let car = Car()
 
 // Configure car with a V8 engine
-car.setEngine(engine: EngineV8())
+car.mountEngine(engine: EngineV8())
 
 // Start car's engine
 car.startEngine()

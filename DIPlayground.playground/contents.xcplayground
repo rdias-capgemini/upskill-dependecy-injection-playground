@@ -10,5 +10,10 @@
         <page name='3b_FormsOfDi_Property'/>
         <page name='3c_FormsOfDi_MethodOne'/>
         <page name='3d_FormsOfDi_MethodTwo'/>
+        <page name='3e_FormsOfDi_Interface'/>
+        <page name='4a_Advanced_Factory'/>
+        <page name='4b_Advanced_ServiceLocator'/>
+        <page name='4c_Advanced_WrappersOne'/>
+        <page name='4c_Advanced_WrappersTwo'/>
     </pages>
 </playground>
